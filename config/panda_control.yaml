@@ -28,66 +28,66 @@
 
         state_publish_rate: 100
 
-    joint1_position_controller:
+    panda_joint1_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint1
         pid: {p: 10000.0, i: 1.0, d: 1000.0, i_clamp: 10}
 
-    joint2_position_controller:
+    panda_joint2_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint2
         pid: {p: 100.0, i: 0.1, d: 20.0, i_clamp: 1.0}
 
-    joint3_position_controller:
+    panda_joint3_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint3
         pid: {p: 500.0, i: 0.01, d: 10.0, i_clamp: 0.1}
 
-    joint4_position_controller:
+    panda_joint4_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint4
         pid: {p: 400.0, i: 0.0, d: 10.0}
 
-    joint5_position_controller:
+    panda_joint5_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint5
         pid: {p: 6.5, i: 0.0, d: 0.01}
 
-    joint6_position_controller:
+    panda_joint6_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint6
         pid: {p: 8.0, i: 0.0, d: 0.01}
 
-    joint7_position_controller:
+    panda_joint7_position_controller:
         type: velocity_controllers/JointPositionController
         joint: panda_joint7
         pid: {p: 12.0, i: 0.0, d: 0.1}
 
-    joint1_velocity_controller:
+    panda_joint1_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint1
 
-    joint2_velocity_controller:
+    panda_joint2_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint2
 
-    joint3_velocity_controller:
+    panda_joint3_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint3
 
-    joint4_velocity_controller:
+    panda_joint4_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint4
 
-    joint5_velocity_controller:
+    panda_joint5_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint5
 
-    joint6_velocity_controller:
+    panda_joint6_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint6
 
-    joint7_velocity_controller:
+    panda_joint7_velocity_controller:
         type: velocity_controllers/JointVelocityController
         joint: panda_joint7
 
