@@ -25,6 +25,13 @@
 
         constraints:
             goal_time: 2.0
+            panda_joint1: {goal: 0.02}
+            panda_joint2: {goal: 0.02}
+            panda_joint3: {goal: 0.02}
+            panda_joint4: {goal: 0.02}
+            panda_joint5: {goal: 0.02}
+            panda_joint6: {goal: 0.02}
+            panda_joint7: {goal: 0.02}
 
         state_publish_rate: 100
 
