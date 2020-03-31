@@ -1,7 +1,7 @@
     # Publish joint states
     joint_state_controller:
         type: joint_state_controller/JointStateController
-        publish_rate: 50
+        publish_rate: 100
 
     panda_joint_trajectory_controller:
         type: velocity_controllers/JointTrajectoryController
